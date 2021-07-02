@@ -1,3 +1,12 @@
+#Naming Conventions
+<ul>
+	<li>Camel Case:</li>
+	<li>Pascal Case:</li>
+	<li>Sneake Case:</li>
+</ul>
+
+
+##C#
 
 | Kind  | Rule |
 | ------------- | ------------- |
