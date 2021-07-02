@@ -31,3 +31,15 @@
 | Package  | lowerCamelCase  |
 | Constant  | ScreamingSnakeCase  |
 
+
+## Python
+| Kind  | Rule |
+| ------------- | ------------- |
+| Variable  | lowerSnakeCase  |
+| Function  | lowerSnakeCase  |
+| Method  | lowerSnakeCase  |
+| Class  | UpperCamelCase  |
+| Constant  | ScreamingSnakeCase  |
+| Module  | lowerSnakeCase  |
+
+
