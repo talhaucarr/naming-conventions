@@ -21,6 +21,8 @@
 | Parameter  | lowerCamelCase  |
 
 ```c#
+//for example
+
 public class NamingConventions : INamingConventions//Class, Interface
 {   
 
