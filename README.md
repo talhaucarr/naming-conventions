@@ -20,6 +20,26 @@
 | Local Variable  | lowerCamelCase  |
 | Parameter  | lowerCamelCase  |
 
+```c#
+public class NamingConventions : INamingConventions//Class, Interface
+{   
+
+    	private int _number;//Private
+    
+    	public int Number //Property, Protected, Public, Internal
+	{
+		get => _number;
+		set => _number = value;
+	}
+
+	
+    	private int Sum(int number, int number2){//Method, Arguments
+		return number + number2;
+	}
+}
+```
+
+
 ## Java
 
 | Kind  | Rule |
