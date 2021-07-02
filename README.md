@@ -1,4 +1,4 @@
-#Naming Conventions
+# Naming Conventions
 <ul>
 	<li>Camel Case:</li>
 	<li>Pascal Case:</li>
@@ -6,7 +6,7 @@
 </ul>
 
 
-##C#
+## C#
 
 | Kind  | Rule |
 | ------------- | ------------- |
