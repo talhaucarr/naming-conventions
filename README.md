@@ -31,6 +31,19 @@
 | Package  | lowerCamelCase  |
 | Constant  | ScreamingSnakeCase  |
 
+## C++
+
+| Kind  | Rule |
+| ------------- | ------------- |
+| Method  | UpperCamelCase  |
+| Class  | UpperCamelCase  |
+| Variable  | lowerSnakeCase  
+| Private Field  | mlowerCamelCase  |
+| Public Field  | UpperCamelCase  |
+| Static Variables  | Should be prepended with ’s’  |
+| Pointer Variables  | Should be prepended with ’p’  |
+| Constant  | ScreamingSnakeCase  |
+| Arguments  | lowerCamelCase  |
 
 ## Python
 | Kind  | Rule |
