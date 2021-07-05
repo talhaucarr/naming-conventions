@@ -57,8 +57,6 @@ public class NamingConventions : INamingConventions//Class, Interface
 ```java
 //for example
 
-//for example
-
 interface InterfaceMyClass {
     public void Hi();
 }
