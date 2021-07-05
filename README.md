@@ -54,6 +54,27 @@ public class NamingConventions : INamingConventions//Class, Interface
 | Package  | camelCase  |
 | Constant  | ScreamingSnakeCase  |
 
+```java
+//for example
+
+//for example
+
+interface InterfaceMyClass {
+    public void Hi();
+}
+
+class ForExampleClass{
+    
+    const ARRAY_SIZE;
+    int studentNumber;
+    
+    public void Hi(){
+        System.out.println("Hi");
+    }
+    
+}
+```
+
 ## C++
 
 | Kind  | Rule |
