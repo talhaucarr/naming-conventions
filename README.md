@@ -9,16 +9,16 @@
 
 | Kind  | Rule |
 | ------------- | ------------- |
-| Private Field  | _lowerCamelCase  |
-| Public Field  | UpperCamelCase  |
-| Protected Field  | UpperCamelCase  |
-| Internal Field  | UpperCamelCase  |
-| Property  | UpperCamelCase  |
-| Method  | UpperCamelCase  |
-| Class  | UpperCamelCase  |
-| Interface  | IUpperCamelCase  |
-| Local Variable  | lowerCamelCase  |
-| Parameter  | lowerCamelCase  |
+| Private Field  | _camelCase  |
+| Public Field  | PascalCase  |
+| Protected Field  | PascalCase  |
+| Internal Field  | PascalCase  |
+| Property  | PascalCase  |
+| Method  | PascalCase  |
+| Class  | PascalCase  |
+| Interface  | IPascalCase  |
+| Local Variable  | camelCase  |
+| Parameter  | camelCase  |
 
 ```c#
 //for example
@@ -46,26 +46,26 @@ public class NamingConventions : INamingConventions//Class, Interface
 
 | Kind  | Rule |
 | ------------- | ------------- |
-| Method  | lowerCamelCase  |
-| Class  | UpperCamelCase  |
-| Interface  | UpperCamelCase  |
-| Variable  | lowerCamelCase  |
-| Package  | lowerCamelCase  |
+| Method  | camelCase  |
+| Class  | PascalCase  |
+| Interface  | PascalCase  |
+| Variable  | camelCase  |
+| Package  | camelCase  |
 | Constant  | ScreamingSnakeCase  |
 
 ## C++
 
 | Kind  | Rule |
 | ------------- | ------------- |
-| Method  | UpperCamelCase  |
-| Class  | UpperCamelCase  |
+| Method  | PascalCase  |
+| Class  | PascalCase  |
 | Variable  | lowerSnakeCase  
-| Private Field  | mlowerCamelCase  |
-| Public Field  | UpperCamelCase  |
+| Private Field  | mcamelCase  |
+| Public Field  | PascalCase  |
 | Static Variables  | Should be prepended with ’s’  |
 | Pointer Variables  | Should be prepended with ’p’  |
 | Constant  | ScreamingSnakeCase  |
-| Arguments  | lowerCamelCase  |
+| Arguments  | camelCase  |
 
 ## Python
 | Kind  | Rule |
@@ -73,7 +73,7 @@ public class NamingConventions : INamingConventions//Class, Interface
 | Variable  | lowerSnakeCase  |
 | Function  | lowerSnakeCase  |
 | Method  | lowerSnakeCase  |
-| Class  | UpperCamelCase  |
+| Class  | PascalCase  |
 | Constant  | ScreamingSnakeCase  |
 | Module  | lowerSnakeCase  |
 
