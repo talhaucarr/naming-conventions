@@ -1,6 +1,7 @@
 # Naming Conventions
 <ul>
-	<li>Camel Case: Words are written adjacent and the first letters are capitalized. It may be that the first letter of the first word is written in lowercase.</li>
+	<li>Pascal Case: Words are written adjacent and the first letters are capitalized.</li>
+	<li>Camel Case: Words are written adjacent and the first letters are lowercase.</li>
 	<li>Sneake Case: Words are connected by '_'.</li>
 </ul>
 
