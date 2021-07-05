@@ -63,7 +63,7 @@ interface InterfaceMyClass {
 
 class ForExampleClass{
     
-    const ARRAY_SIZE;
+    final ARRAY_SIZE;
     int studentNumber;
     
     public void Hi(){
