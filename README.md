@@ -160,7 +160,7 @@ int main(){
 [Source](https://realpython.com/python-pep8/)
 
 
-```c
+```python
 //python
 
 import my_module
