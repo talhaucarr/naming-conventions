@@ -21,6 +21,8 @@
 | Local Variable  | camelCase  |
 | Parameter  | camelCase  |
 
+[Source](https://www.c-sharpcorner.com/UploadFile/8a67c0/C-Sharp-coding-standards-and-naming-conventions/)
+
 ```c#
 //for example
 
@@ -53,6 +55,8 @@ public class NamingConventions : INamingConventions//Class, Interface
 | Variable  | camelCase  |
 | Package  | camelCase  |
 | Constant  | ScreamingSnakeCase  |
+
+[Source](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.htmls)
 
 ```java
 //for example
@@ -87,6 +91,27 @@ class ForExampleClass{
 | Constant  | ScreamingSnakeCase  |
 | Arguments  | camelCase  |
 
+[Source](https://users.ece.cmu.edu/~eno/coding/CppCodingStandard.html)
+
+```c++
+//for example
+const double TWO_PI = 6.28318531; //Global
+
+class CleaningDepartment{ //Class
+	public:
+	int StartYourEngines( Engine& rSomeEngine, Engine anotherEngine); //Method arguments
+		void TestConveyorStart(StatusInfo& rStatus);
+		StatusInfo& rGetStatus(); //returns a modifiable object so requires the ’r’ prefix
+		int ComputeErrorNumber();
+	private:
+		static StatusInfo msStatus; //Static
+		int mCleanHouse //Private
+		int mErrorNumber;
+		String *mpName; //Pointer
+}
+
+```
+
 ## C
 
 | Kind  | Rule |
@@ -114,5 +139,7 @@ class ForExampleClass{
 | Class  | PascalCase  |
 | Constant  | ScreamingSnakeCase  |
 | Module  | lowerSnakeCase  |
+
+[Source](https://realpython.com/python-pep8/)
 
 
