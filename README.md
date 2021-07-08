@@ -87,6 +87,22 @@ class ForExampleClass{
 | Constant  | ScreamingSnakeCase  |
 | Arguments  | camelCase  |
 
+## C
+
+| Kind  | Rule |
+| ------------- | ------------- |
+| Function  | SnakeCase  |
+| Variable  | SnakeCase  |
+| Pointer Variables  | Should be prepended with ’p’  |
+| Global Variables  | Should be prepended with ’g_’  |
+| Global Constans  | ScreamingSnakeCase  |
+| Define  | ScreamingSnakeCase  |
+| Enums  | ScreamingSnakeCase  |
+| Arguments  | camelCase  |
+
+
+
+
 ## Python
 | Kind  | Rule |
 | ------------- | ------------- |
