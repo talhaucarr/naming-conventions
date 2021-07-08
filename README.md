@@ -100,7 +100,7 @@ class ForExampleClass{
 | Enums  | ScreamingSnakeCase  |
 | Arguments  | camelCase  |
 
-![References](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html#names);
+[Source](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html#names)
 
 
 
