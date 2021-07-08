@@ -118,7 +118,7 @@ class CleaningDepartment{ //Class
 | ------------- | ------------- |
 | Function  | SnakeCase  |
 | Variable  | SnakeCase  |
-| Pointer Variables  | Should be prepended with ’p’  |
+| Pointer Variables  | Should be prepended with ’*’  |
 | Global Variables  | Should be prepended with ’g_’  |
 | Global Constans  | ScreamingSnakeCase  |
 | Define  | ScreamingSnakeCase  |
@@ -127,7 +127,24 @@ class CleaningDepartment{ //Class
 
 [Source](https://users.ece.cmu.edu/~eno/coding/CCodingStandard.html#names)
 
+```c
+//for example
 
+#include <stdio.h>
+void retry_max(char firstName); //Function, Arguments
+
+#define ARRAY_SIZE  15 //Define
+
+const int A_GLOBAL_CONSTANT= 5; //Global Const
+Logger  g_log; //Global Variable
+
+int main(){
+	int snake_case = 0; //Variable
+	char *name; //Pointer
+
+}
+
+```
 
 
 ## Python
@@ -141,5 +158,24 @@ class CleaningDepartment{ //Class
 | Module  | lowerSnakeCase  |
 
 [Source](https://realpython.com/python-pep8/)
+
+
+```c
+//python
+
+import my_module
+
+CONST_NAME = "Name" //Const
+
+class ForExample:
+	int number_example
+	
+	def number_sum(number_first):
+		return number_first + number_first
+		
+def add_two_number():
+	return 1 + 2
+
+```
 
 
